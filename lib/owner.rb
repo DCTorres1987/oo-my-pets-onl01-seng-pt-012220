@@ -58,11 +58,11 @@ class Owner
     # pets << dogs 
     # pets << cats
     # pets.flatten
+    dogs + cats
   end
   
   def sell_pets
-    pets.each {|p| p.mood = "nervous"}
-    pets
+    pets.each {|p| p.mood = "nervous", binding.pry}
   end
   
 end
