@@ -60,4 +60,9 @@ class Owner
     pets.flatten
   end
   
+  def sell_pets
+    pets.each {|p| p.mood = "nervous"}
+    pets.clear
+  end
+  
 end
