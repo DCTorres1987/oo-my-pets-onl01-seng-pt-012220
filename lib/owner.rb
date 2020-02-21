@@ -57,6 +57,7 @@ class Owner
     pets = []
     pets << dogs 
     pets << cats
+    pets.flatten
   end
   
 end
