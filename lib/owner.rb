@@ -63,6 +63,7 @@ class Owner
   
   def sell_pets
     pets.each do |c|
+      c.@mood
   end
   
 end
